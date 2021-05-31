@@ -40,15 +40,13 @@ import React, { Component } from "react";
 class AdmissionForm extends Component {    
     render() {    
         return (    
-            <h1>This Admission Form Component</h1>    
+             
         )    
     }    
-}    
-    
+}     
 export default AdmissionForm;
 import React, { Component } from "react";    
-import './AdmissionForm.css'    
-    
+import './AdmissionForm.css'      
 class AdmissionForm extends Component {    
     constructor(props) {    
         super(props);    
@@ -117,7 +115,7 @@ class AdmissionForm extends Component {
     render() {    
         const { studNameErr, classErr, dobErr, genderErr, divisionErr } = this.state.formErrors;    
         return (    
-            <div className="formDiv">    
+            <div className="formDiv">   
                 <h3 style={{ textAlign: "center" }} >Student Admission Form </ h3>    
                 <div>    
                     <form onSubmit={this.handleSubmit}>    
