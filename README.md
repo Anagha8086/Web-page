@@ -1,5 +1,5 @@
 # Web-page
-This is my first repository
+
 .formDiv {    
 padding: 21px;    
  border-radius: 5px;    
@@ -40,7 +40,6 @@ import React, { Component } from "react";
 class AdmissionForm extends Component {    
     render() {    
         return (    
-             
         )    
     }    
 }     
@@ -129,7 +128,6 @@ class AdmissionForm extends Component {
                             {studNameErr &&    
                                 <div style={{ color: "red", paddingBottom: 10 }}>{studNameErr}</div>    
                             }    
-    
                         </div>    
                         <div>    
                             <label htmlFor="class"> Class</label>    
@@ -154,8 +152,7 @@ class AdmissionForm extends Component {
                             </select>    
                             {classErr &&    
                                 <div style={{ color: "red", paddingBottom: 10 }}>{classErr}</div>    
-                            }    
-    
+                            }   
                         </div>    
                         <div>    
                             <label htmlFor="text">Birth Date</label>    
@@ -204,7 +201,6 @@ class AdmissionForm extends Component {
         )    
     }    
 }    
-    
 export default AdmissionForm; 
 import React, { Component } from 'react';    
 import './App.css';    
