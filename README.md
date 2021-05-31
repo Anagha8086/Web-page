@@ -123,7 +123,7 @@ class AdmissionForm extends Component {
                             <input type="text" name="studName"    
                                 value={this.state.studName}    
                                 onChange={this.handleChange}    
-                                placeholder="Your name.."    
+                                placeholder="Your name..."    
                                 className={studNameErr ? ' showError' : ''} />    
                             {studNameErr &&    
                                 <div style={{ color: "red", paddingBottom: 10 }}>{studNameErr}</div>    
